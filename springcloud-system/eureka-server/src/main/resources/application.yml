@@ -18,8 +18,11 @@ eureka:
     instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
     hostname: 127.0.0.1
   client:
-    register-with-eureka: true
-    fetch-registry: true
+    ###因为自己是为注册中心，不需要自己注册自己
+    register-with-eureka: false
+    ###因为自己是为注册中心，不需要检索服务
+    fetch-registry: false
+
     service-url:
       #      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@10.3.212.35:${server.port}/eureka/
       defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@127.0.0.1:${server.port}/eureka/
