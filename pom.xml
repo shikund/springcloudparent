@@ -8,7 +8,12 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
         <version>2.3.0.RELEASE</version>
+=======
+        <!--<version>2.1.9.RELEASE</version>-->
+        <version>2.4.0</version>
+>>>>>>> 6cef41841392685a32698ca62f6554d5060b5b2d
     </parent>
 
     <groupId>com.xingyix</groupId>

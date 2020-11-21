@@ -3,10 +3,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
+<<<<<<< HEAD
         <groupId>com.xingyix</groupId>
         <artifactId>springcloud-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath><!-- lookup parent from repository -->
+=======
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.0</version>
+        <relativePath/> <!-- lookup parent from repository -->
+>>>>>>> 6cef41841392685a32698ca62f6554d5060b5b2d
     </parent>
     <groupId>com.xingyix</groupId>
     <artifactId>user-api</artifactId>
@@ -42,6 +49,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+<<<<<<< HEAD
         <!-- druid连接池 -->
         <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
         <dependency>
@@ -54,6 +62,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+=======
+>>>>>>> 6cef41841392685a32698ca62f6554d5060b5b2d
     </dependencies>
 
     <dependencyManagement>
@@ -74,6 +84,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+<<<<<<< HEAD
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -82,6 +93,8 @@
                     <skipTests>true</skipTests>
                 </configuration>
             </plugin>
+=======
+>>>>>>> 6cef41841392685a32698ca62f6554d5060b5b2d
         </plugins>
     </build>
 

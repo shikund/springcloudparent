@@ -4,7 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.xingyix</groupId>
+<<<<<<< HEAD
         <artifactId>springcloud-parent</artifactId>
+=======
+        <artifactId>springcloudparent</artifactId>
+>>>>>>> 6cef41841392685a32698ca62f6554d5060b5b2d
         <version>1.0-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath><!-- lookup parent from repository -->
     </parent>
@@ -29,6 +33,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
+<<<<<<< HEAD
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -41,6 +46,8 @@
             <version>2.4.0</version>
             <scope>test</scope>
         </dependency>
+=======
+>>>>>>> 6cef41841392685a32698ca62f6554d5060b5b2d
     </dependencies>
 
     <dependencyManagement>
